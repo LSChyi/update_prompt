@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 echo -n "brew cu? [Y/n] "
 read ans

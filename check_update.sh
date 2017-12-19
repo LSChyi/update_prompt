@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 TRIGGER_INTERVAL=7 # unit: days
 
