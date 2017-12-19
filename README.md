@@ -10,7 +10,7 @@ You can get this aids with the following command:
 
 	curl https://raw.githubusercontent.com/LSChyi/update_prompt/master/install.sh | bash
 	
-, and this will create a hidden folder under your home directory. After that, you need to configure what script to execute if you haven't been remainds for some days. you can simply try my reminder update script, but be sure you have installed [Homebrew](https://brew.sh/index_zh-tw.html), [Homebrew-Cask](https://caskroom.github.io) and [brew-cask-upgrade](https://github.com/buo/homebrew-cask-upgrade) is tapped:
+, and this will create a hidden folder under your home directory. After that, you need to configure what script to execute if you haven't been remainds for some days. You can simply try my reminder update script, but be sure you have installed [Homebrew](https://brew.sh/index_zh-tw.html), [Homebrew-Cask](https://caskroom.github.io) and [brew-cask-upgrade](https://github.com/buo/homebrew-cask-upgrade) is tapped:
 
 	cd ~/.update_prompt
 	cp prompt_script.sh.example prompt_script.sh
@@ -35,4 +35,4 @@ Simple remove the directory ~/.update_prompt with:
 	rm -rf ~/.update_prompt
 
 ## Usage
-The default remaind interval is 7 days, and you can change the it in check_update.sh. Also, you can set any prefered script inside the `prompt_script.sh`
+The default remaind interval is 7 days, and you can change it in the check_update.sh. Also, you can set any prefered script inside the `prompt_script.sh`
