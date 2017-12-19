@@ -7,8 +7,9 @@ if ! [[ $ans =~ ^[nN]*$ ]]; then
 fi
 
 echo "getting brew outdated packages"
-packages=`brew outdated`
+packages=`brew outdated --verbose`
 if [ "$packages" ]; then
+    echo $packages
     echo -n "brew upgrade? [Y/n] "
     read ans
     if ! [[ $ans =~ ^[nN]*$ ]]; then
