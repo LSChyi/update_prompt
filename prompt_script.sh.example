@@ -1,0 +1,19 @@
+#!/usr/bin/env zsh
+
+echo -n "brew cu? [Y/n] "
+read ans
+if ! [[ $ans =~ ^[nN]*$ ]]; then
+    brew cu
+fi
+
+echo "getting brew outdated packages"
+packages=`brew outdated`
+if [ "$packages" ]; then
+    echo -n "brew upgrade? [Y/n] "
+    read ans
+    if ! [[ $ans =~ ^[nN]*$ ]]; then
+        brew upgrade
+    fi
+else
+    echo "every brew package is updated"
+fi
