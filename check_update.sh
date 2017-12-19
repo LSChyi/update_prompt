@@ -19,5 +19,5 @@ interval_epoch=$(($current_epoch-$last_epoch))
 interval_days=$(($interval_epoch/60/60/24))
 if [ $interval_days -ge $TRIGGER_INTERVAL ]; then
     date +"%Y-%m-%d" > ~/.update_prompt/update_date
-    ~/.update_prompt/prompt_script.sh
+    bash ~/.update_prompt/prompt_script.sh
 fi
