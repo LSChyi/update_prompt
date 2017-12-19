@@ -2,7 +2,7 @@
 
 TRIGGER_INTERVAL=7 # unit: days
 
-ls ~/.update_prompt/update_date 2>/dev/null
+ls ~/.update_prompt/update_date > /dev/null
 if [ $? -ne 0 ]; then
     date +"%Y-%m-%d" > ~/.update_prompt/update_date
 fi
