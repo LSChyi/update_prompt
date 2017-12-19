@@ -2,6 +2,11 @@
 
 TRIGGER_INTERVAL=7 # unit: days
 
+ls ~/.update_prompt/update_date 2>/dev/null
+if [ $? -ne 0 ]; then
+    date +"%Y-%m-%d" > ~/.update_prompt/update_date
+fi
+
 if [ `uname` = "Darwin" ]; then
     current_epoch=$(date -j -f "%Y-%m-%d" `date +"%Y-%m-%d"` "+%s")
     last_epoch=$(date -j -f "%Y-%m-%d" `cat ~/.update_prompt/update_date` "+%s")
