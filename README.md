@@ -6,7 +6,7 @@ I really like the update mechanism of [oh my zsh](https://github.com/robbyrussel
 In some Linux destribution, such as Ubuntu, every time you log in, the default welcome message also tells you whether you have some available package updates. I am a MacOS user, and I use [Homebrew](https://brew.sh/index_zh-tw.html) and [Homebrew-Cask](https://caskroom.github.io) as my packages and apps managers. However, these two managers do not provide such reminding functionality. This light and simple script will help you by reminding you to do some updates if you haven't been asked for some days.
 
 ## Installation
-You can get this aid with the following command:
+You can install this script with the following command:
 
 	curl https://raw.githubusercontent.com/LSChyi/update_prompt/master/install.sh | bash
 	
