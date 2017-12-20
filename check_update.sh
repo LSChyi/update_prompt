@@ -10,6 +10,9 @@ fi
 if [ `uname` = "Darwin" ]; then
     current_epoch=$(date -j -f "%Y-%m-%d" `date +"%Y-%m-%d"` "+%s")
     last_epoch=$(date -j -f "%Y-%m-%d" `cat ~/.update_prompt/update_date` "+%s")
+elif [ `uname` = "Linux" ]; then
+    current_epoch=$(date -d `date +"%Y-%m-%d"` +"%Y-%m-%d")
+    last_epoch=$(date -d `cat ~/.update_prompt/update_date` +"%Y-%m-%d")
 else
     echo "Your system is currently not supported"
     return 0
