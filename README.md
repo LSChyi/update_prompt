@@ -23,7 +23,7 @@ You can get this aids with the following command:
 
 ![](https://i.imgur.com/WTiiaiR.png)
 	
-## Uninstall
+## Uninstallation
 Simply remove the directory ~/.update_prompt with:
 	
 	rm -rf ~/.update_prompt
