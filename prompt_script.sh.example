@@ -16,5 +16,5 @@ if [ "$packages" ]; then
         brew upgrade
     fi
 else
-    echo "every brew package is updated"
+    echo "every brew package is update-to-date"
 fi
