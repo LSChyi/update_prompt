@@ -5,7 +5,7 @@ I really like the update mechanism of [oh my zsh](https://github.com/robbyrussel
 
 ![](https://i.imgur.com/I0QFr23.jpg)
 
-In some Linux destribution, such as Ubuntu, every time you log in, the default welcome message also tells you whether you have some available package updates. I am a MacOS user, and I use [Homebrew](https://brew.sh/index_zh-tw.html) and [Homebrew-Cask](https://caskroom.github.io) as my packages and apps managers. However, these two managers do not provide such reminding functionality. This light and simple script will help you by reminding you to do some updates if you haven't been asked for some days.
+In some Linux destribution, such as Ubuntu, every time you log in, the default welcome message also tells you whether you have some available package updates. I am a macOS user, and I use [Homebrew](https://brew.sh/index_zh-tw.html) and [Homebrew-Cask](https://caskroom.github.io) as my packages and apps managers. However, these two managers do not provide such reminding functionality. This light and simple script will help you by reminding you to do some updates if you haven't been asked for some days.
 
 ## Installation
 You can install this script with the following command:
@@ -36,4 +36,4 @@ and remove the line `source ~/.update_prompt/check_update.sh` in your `.zshrc`or
 The default remind interval is 7 days, and you can change it in the check_update.sh. Also, you can set any prefered script inside the `prompt_script.sh`
 
 ## Supported Platforms
-This script currently only supports MacOS and Linux due to the arguments format of the `date` command. You are very welcome to add supports on other platforms and send me a pull request.
+This script currently only supports macOS and Linux due to the arguments format of the `date` command. You are very welcome to add supports on other platforms and send me a pull request.
