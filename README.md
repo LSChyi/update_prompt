@@ -35,5 +35,5 @@ and remove the line `source ~/.update_prompt/check_update.sh` in your `.zshrc`or
 ## Usage
 The default remind interval is 7 days, and you can change it in the check_update.sh. Also, you can set any prefered script inside the `prompt_script.sh`
 
-## Supported Platform
+## Supported Platforms
 This script currently only supports MacOS and Linux due to the arguments format of the `date` command. You are very welcome to add supports on other platforms and send me a pull request.
