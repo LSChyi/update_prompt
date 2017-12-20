@@ -1,4 +1,6 @@
 # Update Prompt
+\*中文使用者可以參考[這篇介紹](https://medium.com/@alan81920/自動提醒更新-bf70320f239a)\*
+
 I really like the update mechanism of [oh my zsh](https://github.com/robbyrussell/oh-my-zsh), which reminds you to get updates if you haven't been asked for some days instead of directly updating without asking.
 
 ![](https://i.imgur.com/I0QFr23.jpg)
